@@ -3,7 +3,7 @@ package validate
 import (
 	"fmt"
 	"github.com/golang/glog"
-	api "github.com/ndslabs/apiserver/pkg/types"
+	api "github.com/workbench-apiserver-golang/pkg/types"
 	"github.com/xeipuuv/gojsonschema"
 )
 

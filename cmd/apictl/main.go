@@ -3,7 +3,7 @@
 package main
 
 import (
-	"github.com/ndslabs/apiserver/pkg/apictl/cmd"
+	"github.com/workbench-apiserver-golang/pkg/apictl/cmd"
 	"log"
 )
 

@@ -3,7 +3,7 @@ package kube
 import (
 	"encoding/json"
 	"fmt"
-	ndsapi "github.com/ndslabs/apiserver/pkg/types"
+	ndsapi "github.com/workbench-apiserver-golang/pkg/types"
 	"io/ioutil"
 	"testing"
 	//"k8s.io/client-go/pkg/api/v1"

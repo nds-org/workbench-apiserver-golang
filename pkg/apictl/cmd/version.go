@@ -5,7 +5,7 @@ package cmd
 import (
 	"fmt"
 
-	version "github.com/ndslabs/apiserver/pkg/version"
+	version "github.com/workbench-apiserver-golang/pkg/version"
 	"github.com/spf13/cobra"
 )
 

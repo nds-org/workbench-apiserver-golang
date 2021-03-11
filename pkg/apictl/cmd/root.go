@@ -11,7 +11,7 @@ import (
 	"strings"
 	"time"
 
-	apiclient "github.com/ndslabs/apiserver/pkg/apictl/client"
+	apiclient "github.com/workbench-apiserver-golang/pkg/apictl/client"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 )

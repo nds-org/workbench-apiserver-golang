@@ -6,8 +6,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ndslabs/apiserver/pkg/crypto"
-	api "github.com/ndslabs/apiserver/pkg/types"
+	"github.com/workbench-apiserver-golang/pkg/crypto"
+	api "github.com/workbench-apiserver-golang/pkg/types"
 	"golang.org/x/net/context"
 
 	"github.com/coreos/etcd/client"

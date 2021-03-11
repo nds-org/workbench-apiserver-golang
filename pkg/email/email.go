@@ -9,7 +9,7 @@ import (
 	"net/smtp"
 
 	"github.com/golang/glog"
-	api "github.com/ndslabs/apiserver/pkg/types"
+	api "github.com/workbench-apiserver-golang/pkg/types"
 )
 
 type EmailHelper struct {

@@ -5,7 +5,7 @@ package cmd
 import (
 	"encoding/json"
 	"fmt"
-	api "github.com/ndslabs/apiserver/pkg/types"
+	api "github.com/workbench-apiserver-golang/pkg/types"
 	"github.com/spf13/cobra"
 	"io/ioutil"
 	"os"

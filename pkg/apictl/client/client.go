@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	api "github.com/ndslabs/apiserver/pkg/types"
+	api "github.com/workbench-apiserver-golang/pkg/types"
 	"io"
 	"io/ioutil"
 	"net/http"

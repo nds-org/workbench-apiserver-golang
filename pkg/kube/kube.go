@@ -15,9 +15,9 @@ import (
 	"time"
 
 	"github.com/golang/glog"
-	"github.com/ndslabs/apiserver/pkg/config"
-	"github.com/ndslabs/apiserver/pkg/events"
-	ndsapi "github.com/ndslabs/apiserver/pkg/types"
+	"github.com/workbench-apiserver-golang/pkg/config"
+	"github.com/workbench-apiserver-golang/pkg/events"
+	ndsapi "github.com/workbench-apiserver-golang/pkg/types"
 	"golang.org/x/net/websocket"
 	utilrand "k8s.io/apimachinery/pkg/util/rand"
 
