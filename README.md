@@ -62,8 +62,8 @@ Clone this repo:
 ```
 mkdir -p $GOPATH/src/github.com/
 cd $GOPATH/src/github.com/
-git clone https://github.com/nds-org/ndslabs 
-cd ndslabs/apiserver
+git clone https://github.com/nds-org/workbench-apiserver-golang
+cd workbench-apiserver-golang
 ```	
 
 Build local binaries:
