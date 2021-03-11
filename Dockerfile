@@ -13,7 +13,7 @@ RUN apt-get -qq update && \
     go get github.com/docker/spdystream
 
 # Install Glide dependencies
-WORKDIR /go/src/github.com/ndslabs/apiserver
+WORKDIR /go/src/github.com/workbench-apiserver-golang
 COPY glide.* ./
 RUN glide install --strip-vendor
 
@@ -33,8 +33,9 @@ RUN apt-get -qq update && \
     rm -rf /var/cache/apk/* /tmp/* /var/lib/apt/lists/*
 
 # Copy final binaries from build container
-COPY --from=gobuild /go/src/github.com/ndslabs/apiserver/build/bin/ndslabsctl-*-amd64 /ndslabsctl/
-COPY --from=gobuild /go/src/github.com/ndslabs/apiserver/build/bin/apiserver-linux-amd64 /usr/local/bin/apiserver
+COPY --from=gobuild /go/src/github.com/workbench-apiserver-golang/build/bin/ndslabsctl-*-amd64 /ndslabsctl/
+COPY --from=gobuild /go/src/github.com/workbench-apiserver-golang/build/bin/ndslabsctl-linux-amd64 /usr/local/bin/ndslabsctl
+COPY --from=gobuild /go/src/github.com/workbench-apiserver-golang/build/bin/apiserver-linux-amd64 /usr/local/bin/apiserver
 
 COPY entrypoint.sh /entrypoint.sh
 COPY templates /templates

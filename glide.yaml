@@ -1,7 +1,9 @@
-package: github.com/ndslabs/apiserver
+package: github.com/workbench-apiserver-golang
 ignore:
-- github.com/ndslabs/apiserver
+- github.com/workbench-apiserver-golang
 import:
+- package: github.com/auth0/go-jwt-middleware
+  version: 1c6db3ceac5f4d28b35ee4b9949a3f80030aa6a3
 - package: github.com/dgrijalva/jwt-go
   version: f164e17f59b82642a3895ba065c385db6c547344
 - package: github.com/StephanDollberg/go-json-rest-middleware-jwt
@@ -70,4 +72,4 @@ import:
   subpackages:
   - v3/pkg/types
 - package: github.com/pkg/sftp
-  version: ~1.12.0
+  version: 4d0e916071f68db74f8a73926335f809396d6b42
